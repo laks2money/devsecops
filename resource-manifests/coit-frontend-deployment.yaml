@@ -18,7 +18,8 @@ spec:
   template:
     metadata:
       labels:
-        app: coit-frontend                                  # 6
+        app: coit-frontend
+        
     spec:
       containers:
         - image: chittiinfo/devsecops:v27
@@ -26,3 +27,4 @@ spec:
           name: coit-frontend
           ports:
             - containerPort: 80
+# this is dev branch file 
