@@ -18,7 +18,8 @@ spec:
   template:
     metadata:
       labels:
-        app: coit-frontend                                  # 6
+        app: coit-frontend
+        app.kubernetes.io/name: coit-frontend                                  # 6
     spec:
       containers:
         - image: chittiinfo/devsecops:v27
