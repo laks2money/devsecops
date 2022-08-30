@@ -19,11 +19,7 @@ spec:
     metadata:
       labels:
         app: coit-frontend
-<<<<<<< HEAD
         app.kubernetes.io/name: coit-frontend                                  # 6
-=======
-     
->>>>>>> main
     spec:
       containers:
         - image: chittiinfo/devsecops:v27
