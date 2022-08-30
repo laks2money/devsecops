@@ -19,7 +19,6 @@ spec:
     metadata:
       labels:
         app: coit-frontend
-
         app.kubernetes.io/name: coit-frontend                                  # 6
     spec:
       containers:
